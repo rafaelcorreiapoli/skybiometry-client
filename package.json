@@ -1,0 +1,31 @@
+{
+  "name": "skybiometry-client",
+  "version": "0.0.1",
+  "description": "A node client for SkyBiometry face recognition API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelcorreiapoli/skybiometry-client.git"
+  },
+  "keywords": [
+    "skybiometry",
+    "node",
+    "client",
+    "face",
+    "recognition",
+    "api"
+  ],
+  "author": "Rafael Ribeiro Correia <rafael.correia.poli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelcorreiapoli/skybiometry-client/issues"
+  },
+  "homepage": "https://github.com/rafaelcorreiapoli/skybiometry-client#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
