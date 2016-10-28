@@ -1,4 +1,6 @@
 Number Formatter
+[![Build Status](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client.svg?branch=master)](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client)
+[![Coverage Status](https://coveralls.io/repos/github/rafaelcorreiapoli/skybiometry-client/badge.svg?branch=master)](https://coveralls.io/github/rafaelcorreiapoli/skybiometry-client?branch=master)
 =========
 
 A small library that adds commas to numbers
