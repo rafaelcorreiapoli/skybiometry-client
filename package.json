@@ -1,6 +1,6 @@
 {
   "name": "skybiometry-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node client for SkyBiometry face recognition API",
   "main": "index.js",
   "scripts": {
