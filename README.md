@@ -1,22 +1,22 @@
-Number Formatter
-[![Build Status](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client.svg?branch=master)](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client)
-[![Coverage Status](https://coveralls.io/repos/github/rafaelcorreiapoli/skybiometry-client/badge.svg?branch=master)](https://coveralls.io/github/rafaelcorreiapoli/skybiometry-client?branch=master)
+# Sky Biometry
+
+[![Build Status](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client.svg?branch=master)](https://travis-ci.org/rafaelcorreiapoli/skybiometry-client)[![Coverage Status](https://coveralls.io/repos/github/rafaelcorreiapoli/skybiometry-client/badge.svg?branch=master)](https://coveralls.io/github/rafaelcorreiapoli/skybiometry-client?branch=master)
 =========
 
-A small library that adds commas to numbers
+A library to communicate with skybiometry (https://skybiometry.com/) api using Node.JS
 
 ## Installation
 
-  `npm install @jdaudier/number-formatter`
+  `npm install skybiometry-client`
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
-
-    var formattedNum = numFormatter(35666);
+    import SkyBiometryClient from 'skybiometry-client'
 
 
-  Output should be `35,666`
+    const skyBiometryClient = new SkyBiometryClient(API_KEY, API_SECRET)
+
+
 
 
 ## Tests
